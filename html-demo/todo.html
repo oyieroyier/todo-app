@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Todo App</title>
+		<link rel="stylesheet" href="../src/index.css" />
+		<script src="./script.js" defer></script>
+	</head>
+	<body>
+		<main>
+			<h1 className="title">My Todo App</h1>
+			<form>
+				<input
+					placeholder="Type new Todo here"
+					class="input"
+					name="text"
+					type="text"
+					required
+				/>
+
+				<button class="button">Add Todo</button>
+			</form>
+
+			<div class="todos-container"></div>
+		</main>
+	</body>
+</html>
