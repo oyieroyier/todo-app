@@ -1,0 +1,41 @@
+ <!-- Tailwind Input -->
+		<input class="bg-zinc-200 text-zinc-600 font-mono ring-1 ring-zinc-400 focus:ring-2 focus:ring-rose-400 outline-none duration-300 placeholder:text-zinc-600 placeholder:opacity-50 rounded-full px-4 py-1 shadow-md focus:shadow-lg focus:shadow-rose-400"
+		placeholder="Type some text here"
+		name="text"
+		type="text"
+	/>
+
+ <!-- Tailwind Button One -->
+		<button class="relative border hover:border-sky-600 duration-500 group cursor-pointer text-sky-50  overflow-hidden h-14 w-56 rounded-md bg-sky-800 p-2 flex justify-center items-center font-extrabold">
+			<div class="absolute z-10 w-48 h-48 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-900 delay-150 group-hover:delay-75"></div>
+			<div class="absolute z-10 w-40 h-40 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-800 delay-150 group-hover:delay-100"></div>
+			<div class="absolute z-10 w-32 h-32 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-700 delay-150 group-hover:delay-150"></div>
+			<div class="absolute z-10 w-24 h-24 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-600 delay-150 group-hover:delay-200"></div>
+			<div class="absolute z-10 w-16 h-16 rounded-full group-hover:scale-150 transition-all  duration-500 ease-in-out bg-sky-500 delay-150 group-hover:delay-300"></div>
+			<p class="z-10">Primary Button</p>
+		</button>
+
+ <!-- Tailwind Button Two -->
+		<button class="bg-white text-center w-48 rounded-2xl h-14 relative font-sans text-black text-xl font-semibold group"
+		>
+			<div
+				class="bg-green-400 rounded-xl h-12 w-1/4 flex items-center justify-center absolute left-1 top-[4px] group-hover:w-[184px] z-10 duration-500"
+			>
+				<svg
+					width="25px"
+					height="25px"
+					viewBox="0 0 1024 1024"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						fill="#000000"
+						d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64z"
+					></path>
+					<path
+						fill="#000000"
+						d="m237.248 512 265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312L237.248 512z"
+					></path>
+				</svg>
+			</div>
+			<p class="translate-x-2">Go Back</p>
+		</button>
