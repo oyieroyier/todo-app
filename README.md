@@ -22,12 +22,14 @@ In this mini-project, we'll cover the basics of React JS by rewriting the below 
 10. Controlled Inputs
 11. `useEffect`
 12. React CRUD operations with JSON-server
+13. React x Tailwind CSS
 
 ## System Requirements
 
 - Node 18+
 - JSON Server
 - Live Server extension (VS Code).
+- ES7 React/Redux/GraphQL/React-Native snippets. ([click here to install](https://marketplace.visualstudio.com/items?itemName=rodrigovallades.es7-react-js-snippets))
 - A browser capable of running JavaScript (Chrome, Firefox, Safari, or Edge)
 - Operating System (Windows 10+, MacOS, Linux, etc.)
 - A text editor capable of running JavaScript (Visual Studio Code, Vim, Nano, Emacs, Atom, Sublime Text, etc.)
