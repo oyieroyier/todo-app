@@ -1,28 +1,21 @@
 # Todo App
 
-**NOTE: THIS IS THE STARTER CODE. FOR EACH CONCEPT COVERED, VIEW THE RELEVANT BRANCHES.**
-
 ## Overview
 
 In this mini-project, we'll cover the basics of React JS by rewriting the below Todo App written in HTML and Vanilla JS in React.
 
 ![Preview of the Todo App as viewed on a Samsung Galaxy Fold 2 phone.](./src/assets/readme-images/todo-demo.png)
 
-## Topics
+## React concepts covered in this branch
 
 1. Component Architecture
 2. JSX
 3. Prop Basics
 4. Destructuring Assignment
-5. Lists and Keys
-6. React Fragments
-7. React Children
-8. State
-9. Events in React
-10. Controlled Inputs
-11. `useEffect`
-12. React CRUD operations with JSON-server
-13. React x Tailwind CSS
+5. React JS x Tailwind CSS
+6. Lists and Keys
+7. React Fragments
+8. React Children
 
 ## System Requirements
 
