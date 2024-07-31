@@ -6,7 +6,7 @@ function AddTodoForm() {
   return (
     
     
-    <form onSubmit={()=>alert ("Form Has Been Submitted!!")}>
+    <form>
     <InputField />
     <PrimaryButton />
 
