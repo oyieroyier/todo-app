@@ -57,7 +57,7 @@ function createSingleTodoItem(todo, index) {
 	singleTodo.appendChild(checkBoxAndAddedTodo);
 
 	const actionButtons = document.createElement('div');
-	actionButtons.className = 'flex';
+	actionButtons.className = 'flex-container';
 	actionButtons.innerHTML = `
 	<button class="button" onclick='showEditModal(${index})'>Edit</button>
 	<button class="delete-button" onclick='deleteTodo(${index})'>Delete</button>
@@ -79,7 +79,7 @@ function showEditModal(index) {
 	const modal = document.createElement('dialog');
 	modal.id = 'edit-todo-modal';
 	modal.innerHTML = `
-		<div class="flex">
+		<div class="flex-container">
 			<h2>Edit Todo</h2>
 			<button class="delete-button">Close</button>
 		</div>

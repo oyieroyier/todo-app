@@ -5,7 +5,7 @@ const AddTodoForm = () => {
   return (
     <form>
       <InputField />
-      <PrimaryButton />
+      <PrimaryButton>Add Todo</PrimaryButton>
     </form>
   );
 };
