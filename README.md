@@ -6,7 +6,7 @@
 
 In this mini-project, we'll cover the basics of React JS by rewriting the below Todo App written in HTML and Vanilla JS in React.
 
-![Preview of the Todo App as viewed on a Samsung Galaxy Fold 2 phone.](./src/assets/readme-images/todo-demo.png)
+![Preview of the Todo App as viewed on a Samsung Galaxy Fold 2 phone.](./public/readme-images/todo-demo.png)
 
 ## Topics
 
@@ -98,7 +98,7 @@ To use this repo, follow these steps:
 
 When both versions of the application are running, you should see something similar on the browser windows where they are open.
 
-![Preview of the complete HTML/Vanilla JS version of the app and the React Vite starter Code](./src/assets/readme-images/preview.png)
+![Preview of the complete HTML/Vanilla JS version of the app and the React Vite starter Code](./public/readme-images/preview.png)
 
 ## Authors
 

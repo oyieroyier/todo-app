@@ -124,7 +124,7 @@ main {
   }
 }
 
-.flex {
+.flex-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -233,8 +233,7 @@ dialog {
     gap: 1rem;
   }
 
-  .flex > * {
+  .flex-container > * {
     flex: 1;
-    height: 40px;
   }
 }
