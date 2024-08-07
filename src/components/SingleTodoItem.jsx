@@ -49,8 +49,8 @@ const SingleTodoItem = ({ todo, setTodoList, todoList }) => {
   return (
     <div className="flex flex-col justify-between rounded-2xl border-2 border-[#685254] p-4 text-lg md:flex-row lg:items-center">
       <div className="todo-item">
-        <Checkbox todo={todo} setTodoList={setTodoList} todoList={todoList} />
-        <p className={todo.completed && "completed"}>{todo.title}</p>
+        <Checkbox />
+        <p>{todo.title}</p>
       </div>
 
       <div className="flex-container">
