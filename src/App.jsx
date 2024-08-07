@@ -11,7 +11,7 @@ const App = () => {
     <main>
       <PageTitle text={"My Todo App"} />
       <AddTodoForm setTodoList={setTodoList} todoList={todoList} />
-      <TodosContainer todoList={todoList} />
+      <TodosContainer todoList={todoList} setTodoList={setTodoList} />
     </main>
   );
 };
