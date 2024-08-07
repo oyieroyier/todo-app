@@ -17,7 +17,7 @@ const AddTodoForm = ({ todoList, setTodoList }) => {
       { id: crypto.randomUUID(), title: newTodoItem, completed: false },
     ]);
 
-
+    setNewTodoItem("");
   }
 
   return (

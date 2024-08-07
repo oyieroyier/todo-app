@@ -2,12 +2,16 @@
 
 import SingleTodoItem from "./SingleTodoItem";
 
-const TodosContainer = ({todoList}) => {
-
+const TodosContainer = ({ todoList, setTodoList }) => {
   return (
     <div className="todos-container">
       {todoList.map((todo) => (
-        <SingleTodoItem key={todo.id} todo={todo} />
+        <SingleTodoItem
+          key={todo.id}
+          todo={todo}
+          setTodoList={setTodoList}
+          todoList={todoList}
+        />
       ))}
     </div>
   );
