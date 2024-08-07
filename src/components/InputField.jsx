@@ -1,8 +1,15 @@
+/* eslint-disable react/prop-types */
 
-const InputField = () => {
+const InputField = ({
+  value,
+  onChange,
+  placeholder = "Type new Todo here",
+}) => {
   return (
     <input
-      placeholder="Type new Todo here"
+      value={value}
+      onChange={onChange}
+      placeholder={placeholder}
       className="input"
       name="text"
       type="text"

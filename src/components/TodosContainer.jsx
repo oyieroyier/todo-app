@@ -1,10 +1,12 @@
-import { todos } from "../data";
+/* eslint-disable react/prop-types */
+
 import SingleTodoItem from "./SingleTodoItem";
 
-const TodosContainer = () => {
+const TodosContainer = ({todoList}) => {
+
   return (
     <div className="todos-container">
-      {todos.map((todo) => (
+      {todoList.map((todo) => (
         <SingleTodoItem key={todo.id} todo={todo} />
       ))}
     </div>
@@ -12,4 +14,3 @@ const TodosContainer = () => {
 };
 
 export default TodosContainer;
-
