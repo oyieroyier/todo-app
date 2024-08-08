@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
 
 import { useState } from "react";
+import { baseURL, fetchData } from "../fetchData";
 
-const Checkbox = ({ todo, setTodoList, todoList }) => {
+const Checkbox = ({ todo }) => {
   const [checked, setChecked] = useState(todo.completed);
 
   function handleCheck() {
@@ -11,13 +12,9 @@ const Checkbox = ({ todo, setTodoList, todoList }) => {
     const todoComplete = {
       ...todo,
       completed: checked,
-    };
-
-    const updatedTodoList = todoList.map((item) =>
-      item.id === todoComplete.id ? todoComplete : item,
-    );
-
-    setTodoList(updatedTodoList);
+		};
+		
+		fetchData(`${baseURL}/${todo.id}`, "PATCH", todoComplete);
   }
   return (
     <label className="hamburger" onClick={() => setChecked(!checked)}>
